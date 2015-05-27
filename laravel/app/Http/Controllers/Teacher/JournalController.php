@@ -14,7 +14,7 @@ class JournalController extends Controller {
 	 */
 	public function main_action($class_id = null, $subject_id = null, $edu_period_id = null, $date = null, $user_id = null)
 	{
-		echo  "Это модуль 'Журнал'";
+		echo  trans('journal.mtitle'); /*equal to echo Lang::get('journal.mtitle'); */
         if($class_id){
             echo " для класса c id = ".$class_id;
         };
