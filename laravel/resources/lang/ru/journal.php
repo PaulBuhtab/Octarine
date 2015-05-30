@@ -11,9 +11,9 @@ return [
 	| ru- undone
 	*/
 
-	"mtitle" => "This is the Journal module",
-	"forclassid" => "for class with id ",
-	"forsubjectid" => "for subject with id ",
-	"eduperiodid" => "educational period ",
+	"mtitle" => "Это модуль журнал ",
+	"forclassid" => " для класса с идентификатором ",
+	"forsubjectid" => " для предмета с идентификатором ",
+	"eduperiodid" => ". Учебный период - ",
 
 ];

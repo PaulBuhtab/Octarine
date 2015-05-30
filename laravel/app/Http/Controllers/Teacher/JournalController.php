@@ -16,13 +16,13 @@ class JournalController extends Controller {
 	{
 		echo  trans('journal.mtitle'); /*equal to echo Lang::get('journal.mtitle'); */
         if($class_id){
-            echo " для класса c id = ".$class_id;
+            echo trans('journal.forclassid').$class_id;
         };
         if($subject_id){
-            echo " для предмета с id = ".$subject_id;
+            echo trans('journal.forsubjectid').$subject_id;
         };
         if($edu_period_id){
-            echo ". Учебный период - ".$edu_period_id;
+            echo trans('journal.eduperiodid').$edu_period_id;
         };
         if($date){
             echo ". Оценки будут загружаться в модальном окне за дату  ".date("d:M:y",$date);
